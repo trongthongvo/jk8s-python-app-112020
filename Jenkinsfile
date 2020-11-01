@@ -9,7 +9,7 @@ pipeline {
   }
 
   environment {
-      DOCKERHUB_PW = credentials('dockerhub_pw')
+      DOCKERHUB_PW = credentials('docker-hub-login')
   }
   
   stages {
