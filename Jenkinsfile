@@ -3,7 +3,7 @@ pipeline {
     kubernetes {
       label 'runner'
       idleMinutes 5
-      yamlFile 'build-pod.yaml'  
+      yamlFile 'agent.yaml'  
       defaultContainer 'python'  
     }
   }
