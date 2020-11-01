@@ -1,7 +1,6 @@
 pipeline {
   agent {
     kubernetes {
-      label 'runner'
       idleMinutes 5
       yamlFile 'agent.yaml'  
       defaultContainer 'python'  
